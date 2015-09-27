@@ -1,0 +1,61 @@
+
+#page {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+    background: white;
+    moz-box-shadow: 3px 0 20px #000;
+    -webkit-box-shadow: 3px 0 20px #000;
+    box-shadow: 3px 0 20px #000;
+    margin-bottom: 50px;
+}
+
+#page #header {
+	height: 130px;
+	text-align: center;
+}
+
+#page #header img.subtitle {
+	margin-top: 5px;
+}
+
+#page #main {
+	display: table;
+}
+
+#page #main #myGame, 
+#page #main #myInfo {
+	display: table-cell;
+}
+
+#page #main #myGame {
+	border: 1px solid lightgray;
+}
+
+#page #main #myInfo {
+	vertical-align: top;
+	border: 1px solid lightgray;
+	border-left: none;
+	width: 380px;
+	padding: 10px;
+}
+
+#page #main #myInfo .author img {
+	float: left;
+	margin-right: 10px;
+	padding: 4px;
+	border: 1px solid lightgray;
+}
+
+#page #main #myInfo .author > div > p {
+	margin: 7px;
+}
+
+#page #main #myInfo .author > div > p.fullname {
+	font-weight: bold;
+	color: blue;
+}
+
+#page #main #myInfo .author .clear-fix {
+	clear: both;
+}
